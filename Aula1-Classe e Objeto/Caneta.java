@@ -14,7 +14,7 @@ public class Caneta{
     }
     void rabiscar(){
         if(this.tampada == true){
-            System.out.println("Caneta tampada");
+            System.out.println("Caneta.java tampada");
         } else{
             System.out.println("Rabiscando");
         }
