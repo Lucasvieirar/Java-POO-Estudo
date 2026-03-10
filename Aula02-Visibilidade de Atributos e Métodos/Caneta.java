@@ -4,7 +4,7 @@ public class Caneta{
     public String cor;
     private float ponta;
     protected int carga;
-    protected tampada;
+    protected boolean tampada;
     void status(){
         System.out.println("Uma caneta " + this.cor );
         System.out.println("Está tampada? " + this.tampada );
@@ -16,7 +16,7 @@ public class Caneta{
         if(this.tampada == true){
             System.out.println("Caneta tampada");
         } else{
-            System.out.println("Rabiscando")
+            System.out.println("Rabiscando");
         }
 
     }

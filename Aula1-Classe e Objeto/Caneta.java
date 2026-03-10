@@ -16,7 +16,7 @@ public class Caneta{
         if(this.tampada == true){
             System.out.println("Caneta tampada");
         } else{
-            System.out.println("Rabiscando")
+            System.out.println("Rabiscando");
         }
 
     }
