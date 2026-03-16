@@ -118,13 +118,13 @@ public class Lutador {
     public void status(){
 
     }
-    public void ganharLutar(){
+    public void ganharLuta(){
          setVitoria(getVitoria() + 1);
     }
     public void PerderLuta(){
              setDerrota(getDerrota() + 1);
     }
-    public void empatarLutar(){
+    public void empatarLuta(){
              setEmpates(getEmpates() + 1);
     }
 }
